@@ -1,3 +1,0 @@
-core_cm0.h:582:22:NVIC_SetPriority	24	static
-core_cm0.h:656:26:SysTick_Config	16	static
-main.c:61:5:main	16	static
