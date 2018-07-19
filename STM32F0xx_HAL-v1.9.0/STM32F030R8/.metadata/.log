@@ -1,0 +1,1430 @@
+!SESSION 2018-07-18 13:52:42.161 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-18 13:52:49.987
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-18 13:52:49.993
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2018-07-18 13:52:50.704
+!MESSAGE Target: STM32, Version: 9.0.1, Build date: 20180420-1214, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.0.1/ide/
+
+!ENTRY TrueSTUDIO 1 0 2018-07-18 13:52:50.705
+!MESSAGE Workspace: C:\Users\uporabnik\Documents\Atollic\STM32F0xx_HAL-v1.9.0
+
+!ENTRY org.eclipse.jface 2 0 2018-07-18 13:52:51.684
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-07-18 13:52:51.684
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c7c42,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1371de2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2018-07-18 13:52:54.242
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2018-07-18 13:52:54.275
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-07-18 13:52:54.606
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\uporabnik'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY AtollicWebServices 4 0 2018-07-18 13:55:57.101
+!MESSAGE Exception in webservices
+!STACK 0
+java.net.SocketException: Permission denied: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.atollic.truestudio.productmanager.exposed.AtollicWebServices.request(AtollicWebServices.java:603)
+	at com.atollic.truestudio.productmanager.exposed.AtollicWebServices.getLatestVersion(AtollicWebServices.java:93)
+	at com.atollic.truestudio.productmanager.exposed.ProductManager$1.run(ProductManager.java:197)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY TrueSTUDIO 4 0 2018-07-18 13:55:57.104
+!MESSAGE Failed to get version information: No contact with license server: Failed to contact Atollic.
+
+!ENTRY com.atollic.truestudio.common.wizards 4 0 2018-07-18 13:56:57.311
+!MESSAGE Failed to find the correct FPU ABI, falling back to Soft. Value: 
+
+!ENTRY com.atollic.truestudio.common.wizards 4 0 2018-07-18 13:56:59.721
+!MESSAGE Failed to find the correct FPU ABI, falling back to Soft. Value: 
+
+!ENTRY com.atollic.truestudio.common.wizards 4 0 2018-07-18 13:57:06.675
+!MESSAGE Failed to find the correct FPU ABI, falling back to Soft. Value: 
+
+!ENTRY com.atollic.truestudio.mbs 4 0 2018-07-18 13:57:26.308
+!MESSAGE Failed to find device info
+
+!ENTRY com.atollic.truestudio.mbs 4 0 2018-07-18 13:57:26.311
+!MESSAGE Failed to find device info
+
+!ENTRY com.atollic.truestudio.mbs 4 0 2018-07-18 13:57:26.315
+!MESSAGE Failed to find device info
+
+!ENTRY com.atollic.truestudio.mbs 4 0 2018-07-18 13:57:26.316
+!MESSAGE Failed to find device info
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2018-07-18 13:57:26.356
+!MESSAGE blink needs property 'com.atollic.truestudio.general.runtimelib.275365183' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2018-07-18 13:57:26.357
+!MESSAGE Failed to get device info (Debug) for project blink
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2018-07-18 13:57:26.357
+!MESSAGE Failed to get device info (Debug) for project blink
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2018-07-18 13:57:26.358
+!MESSAGE Failed to get device info (Debug) for project blink
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2018-07-18 13:57:26.358
+!MESSAGE blink needs property 'com.atollic.truestudio.general.runtimelib.1096760032' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2018-07-18 13:57:26.359
+!MESSAGE Failed to get device info (Release) for project blink
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2018-07-18 13:57:26.359
+!MESSAGE Failed to get device info (Release) for project blink
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2018-07-18 13:57:26.359
+!MESSAGE Failed to get device info (Release) for project blink
+
+!ENTRY com.atollic.truestudio.mbs 4 0 2018-07-18 13:57:26.383
+!MESSAGE Failed to find device info
+
+!ENTRY com.atollic.truestudio.mbs 4 0 2018-07-18 13:57:26.384
+!MESSAGE Failed to find device info
+
+!ENTRY com.atollic.truestudio.mbs 4 0 2018-07-18 13:57:26.389
+!MESSAGE Failed to find device info
+
+!ENTRY com.atollic.truestudio.mbs 4 0 2018-07-18 13:57:26.389
+!MESSAGE Failed to find device info
+
+!ENTRY com.atollic.truestudio.mbs 4 0 2018-07-18 13:57:26.433
+!MESSAGE Failed to find device info
+
+!ENTRY com.atollic.truestudio.mbs 4 0 2018-07-18 13:57:26.433
+!MESSAGE Failed to find device info
+
+!ENTRY com.atollic.truestudio.mbs 4 0 2018-07-18 13:57:32.817
+!MESSAGE Failed to find device info
+
+!ENTRY com.atollic.truestudio.mbs 4 0 2018-07-18 13:57:33.036
+!MESSAGE Failed to find device info
+
+!ENTRY com.atollic.truestudio.mbs 4 0 2018-07-18 13:57:33.431
+!MESSAGE Failed to find device info
+
+!ENTRY com.atollic.truestudio.mbs 4 0 2018-07-18 13:57:33.576
+!MESSAGE Failed to find device info
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-07-18 13:57:43.077
+!MESSAGE Indexed 'blink' (2 sources, 61 headers) in 4,17 sec: 8.975 declarations; 13.329 references; 0 unresolved inclusions; 75 syntax errors; 68 unresolved names (0,3%)
+
+!ENTRY org.eclipse.ui 4 4 2018-07-18 14:39:53.722
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.TaskList.
+
+!ENTRY com.atollic.hardwaredebug.launch 2 0 2018-07-18 14:44:02.530
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-18 14:46:04.899
+!MESSAGE Unloading product manager
+!SESSION 2018-07-18 14:49:03.766 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-18 14:49:10.140
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-18 14:49:10.151
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2018-07-18 14:49:10.982
+!MESSAGE Target: STM32, Version: 9.0.1, Build date: 20180420-1214, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.0.1/ide/
+
+!ENTRY TrueSTUDIO 1 0 2018-07-18 14:49:10.982
+!MESSAGE Workspace: C:\Users\uporabnik\Documents\Atollic\STM32F0xx_HAL-v1.9.0
+
+!ENTRY org.eclipse.jface 2 0 2018-07-18 14:49:11.950
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-07-18 14:49:11.950
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1927bc9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3efafe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2018-07-18 14:49:15.496
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2018-07-18 14:49:15.545
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-07-18 14:49:15.762
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\uporabnik'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY AtollicWebServices 4 0 2018-07-18 14:49:19.710
+!MESSAGE Exception in webservices
+!STACK 0
+java.net.SocketException: Permission denied: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.atollic.truestudio.productmanager.exposed.AtollicWebServices.request(AtollicWebServices.java:603)
+	at com.atollic.truestudio.productmanager.exposed.AtollicWebServices.getLatestVersion(AtollicWebServices.java:93)
+	at com.atollic.truestudio.productmanager.exposed.ProductManager$1.run(ProductManager.java:197)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY TrueSTUDIO 4 0 2018-07-18 14:49:19.713
+!MESSAGE Failed to get version information: No contact with license server: Failed to contact Atollic.
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-07-18 15:41:06.750
+!MESSAGE Indexed 'blink' (58 sources, 148 headers) in 6,4 sec: 16.941 declarations; 75.510 references; 0 unresolved inclusions; 75 syntax errors; 76 unresolved names (0,082%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-07-18 15:41:42.327
+!MESSAGE Indexed 'blink' (58 sources, 148 headers) in 5,57 sec: 16.941 declarations; 75.510 references; 0 unresolved inclusions; 75 syntax errors; 76 unresolved names (0,082%)
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-18 15:45:26.397
+!MESSAGE Unloading product manager
+!SESSION 2018-07-18 15:45:32.745 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-18 15:46:26.312
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-18 15:46:26.320
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2018-07-18 15:46:27.145
+!MESSAGE Target: STM32, Version: 9.0.1, Build date: 20180420-1214, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.0.1/ide/
+
+!ENTRY TrueSTUDIO 1 0 2018-07-18 15:46:27.145
+!MESSAGE Workspace: C:\Users\uporabnik\Documents\Atollic\STM32F0xx_HAL-v1.9.0
+
+!ENTRY org.eclipse.jface 2 0 2018-07-18 15:46:28.167
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-07-18 15:46:28.167
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f074a0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@fc1aa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2018-07-18 15:46:32.202
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2018-07-18 15:46:32.247
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-07-18 15:46:32.487
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\uporabnik'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY AtollicWebServices 4 0 2018-07-18 15:46:42.242
+!MESSAGE Exception in webservices
+!STACK 0
+java.net.SocketException: Permission denied: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.atollic.truestudio.productmanager.exposed.AtollicWebServices.request(AtollicWebServices.java:603)
+	at com.atollic.truestudio.productmanager.exposed.AtollicWebServices.getLatestVersion(AtollicWebServices.java:93)
+	at com.atollic.truestudio.productmanager.exposed.ProductManager$1.run(ProductManager.java:197)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY TrueSTUDIO 4 0 2018-07-18 15:46:42.246
+!MESSAGE Failed to get version information: No contact with license server: Failed to contact Atollic.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-18 15:48:25.950
+!MESSAGE Unloading product manager
+!SESSION 2018-07-18 16:00:27.563 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-18 16:00:35.590
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-18 16:00:35.599
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2018-07-18 16:00:36.575
+!MESSAGE Target: STM32, Version: 9.0.1, Build date: 20180420-1214, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.0.1/ide/
+
+!ENTRY TrueSTUDIO 1 0 2018-07-18 16:00:36.575
+!MESSAGE Workspace: C:\Users\uporabnik\Documents\Atollic\STM32F0xx_HAL-v1.9.0
+
+!ENTRY org.eclipse.jface 2 0 2018-07-18 16:00:37.773
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-07-18 16:00:37.773
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1793f15,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1ec7eb5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2018-07-18 16:00:40.688
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2018-07-18 16:00:40.720
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-07-18 16:00:41.018
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\uporabnik'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY AtollicWebServices 4 0 2018-07-18 16:00:42.647
+!MESSAGE Exception in webservices
+!STACK 0
+java.net.SocketException: Permission denied: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.atollic.truestudio.productmanager.exposed.AtollicWebServices.request(AtollicWebServices.java:603)
+	at com.atollic.truestudio.productmanager.exposed.AtollicWebServices.getLatestVersion(AtollicWebServices.java:93)
+	at com.atollic.truestudio.productmanager.exposed.ProductManager$1.run(ProductManager.java:197)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY TrueSTUDIO 4 0 2018-07-18 16:00:42.650
+!MESSAGE Failed to get version information: No contact with license server: Failed to contact Atollic.
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-07-18 16:01:08.355
+!MESSAGE Indexed 'blink' (58 sources, 148 headers) in 7,59 sec: 16.941 declarations; 75.510 references; 0 unresolved inclusions; 75 syntax errors; 76 unresolved names (0,082%)
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-18 16:11:27.605
+!MESSAGE Unloading product manager
+!SESSION 2018-07-19 00:15:13.362 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-19 00:15:30.009
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-19 00:15:30.025
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2018-07-19 00:15:30.971
+!MESSAGE Target: STM32, Version: 9.0.1, Build date: 20180420-1214, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.0.1/ide/
+
+!ENTRY TrueSTUDIO 1 0 2018-07-19 00:15:30.971
+!MESSAGE Workspace: C:\Users\user\Documents\Atollic\test
+
+!ENTRY org.eclipse.jface 2 0 2018-07-19 00:15:32.325
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-07-19 00:15:32.325
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@99c42c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a879ed,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2018-07-19 00:15:36.150
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2018-07-19 00:15:36.331
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-07-19 00:15:36.674
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-07-19 00:16:10.107
+!MESSAGE Indexed 'blink' (59 sources, 137 headers) in 8,92 sec: 16.115 declarations; 69.353 references; 3 unresolved inclusions; 1.277 syntax errors; 4.184 unresolved names (4,7%)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2018-07-19 00:18:44.231
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:795)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete 'C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h'.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:138)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h.
+java.nio.file.AccessDeniedException: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2018-07-19 00:18:44.233
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2018-07-19 00:18:44.233
+!MESSAGE Could not delete 'C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:138)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h.
+java.nio.file.AccessDeniedException: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2018-07-19 00:18:44.234
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2018-07-19 00:18:44.234
+!MESSAGE Could not delete: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2018-07-19 00:18:55.868
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:795)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete 'C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h'.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:138)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h.
+java.nio.file.AccessDeniedException: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2018-07-19 00:18:55.869
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2018-07-19 00:18:55.869
+!MESSAGE Could not delete 'C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:138)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h.
+java.nio.file.AccessDeniedException: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2018-07-19 00:18:55.869
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2018-07-19 00:18:55.869
+!MESSAGE Could not delete: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2018-07-19 00:20:09.927
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:795)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete 'C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h'.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:138)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h.
+java.nio.file.AccessDeniedException: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2018-07-19 00:20:09.928
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2018-07-19 00:20:09.928
+!MESSAGE Could not delete 'C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:138)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h.
+java.nio.file.AccessDeniedException: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2018-07-19 00:20:09.928
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2018-07-19 00:20:09.928
+!MESSAGE Could not delete: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2018-07-19 00:20:50.626
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:795)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete 'C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h'.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:138)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h.
+java.nio.file.AccessDeniedException: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2018-07-19 00:20:50.626
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2018-07-19 00:20:50.626
+!MESSAGE Could not delete 'C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:138)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h.
+java.nio.file.AccessDeniedException: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2018-07-19 00:20:50.627
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2018-07-19 00:20:50.627
+!MESSAGE Could not delete: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\user\Documents\Atollic\test\blink\src\stm32f0xx_hal_conf.h
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:218)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:796)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1828)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:29:03.573
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.TaskList.
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-07-19 00:35:39.367
+!MESSAGE Indexed 'blink' (59 sources, 149 headers) in 7,9 sec: 14.852 declarations; 38.840 references; 0 unresolved inclusions; 75 syntax errors; 77 unresolved names (0,14%)
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:31.895
+!MESSAGE Plug-in 'com.atollic.truestudio.debug.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.run' is invalid): com.atollic.truestudio.debug.ui.action.Restart
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:31.897
+!MESSAGE Plug-in 'com.atollic.truestudio.dsf.oss' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.run' is invalid): com.atollic.truestudio.debug.ui.action.TerminateAndRelaunch
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:31.902
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:31.904
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.rebuildActiveConfiguration: {ActionHandler(com.atollic.truestudio.ui.RebuildActiveConfigMenuAction$CDTReBuildAction@1ca7915)} vs {ActionHandler(com.atollic.truestudio.ui.RebuildActiveConfigMenuAction$CDTReBuildAction@1d664e7)}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:31.925
+!MESSAGE Plug-in 'org.eclipse.cdt.ui' contributed an invalid Menu Extension (Path: 'project/org.eclipse.cdt.ui.prjmenu' is invalid): org.eclipse.cdt.ui.manageConfigsAction2
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:31.926
+!MESSAGE Plug-in 'org.eclipse.cdt.ui' contributed an invalid Menu Extension (Path: 'project/org.eclipse.cdt.ui.prjmenu' is invalid): org.eclipse.cdt.ui.buildConfigMenuAction
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:31.926
+!MESSAGE Plug-in 'org.eclipse.cdt.ui' contributed an invalid Menu Extension (Path: 'project/org.eclipse.cdt.ui.prjmenu' is invalid): org.eclipse.cdt.ui.wsselection
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:43.465
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:43.672
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:46.762
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:46.763
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:46.832
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:46.906
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:46.961
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:47.092
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:36:47.163
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-07-19 00:37:09.160
+!MESSAGE Indexed 'blink' (59 sources, 149 headers) in 6,92 sec: 14.852 declarations; 38.840 references; 0 unresolved inclusions; 75 syntax errors; 77 unresolved names (0,14%)
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:37:13.221
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:37:13.351
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:37:25.752
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:37:28.619
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:37:29.766
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:37:36.679
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.rebuildActiveConfiguration: {ActionHandler(com.atollic.truestudio.ui.RebuildActiveConfigMenuAction$CDTReBuildAction@1ca7915)} vs {ActionHandler(com.atollic.truestudio.ui.RebuildActiveConfigMenuAction$CDTReBuildAction@1d664e7)}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:37:53.063
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:37:55.019
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:37:55.024
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:37:55.046
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:38:25.456
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:38:25.554
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:38:30.157
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:38:30.158
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:38:30.176
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:38:31.102
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:38:31.103
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:38:31.166
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:38:31.237
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:38:31.317
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:38:31.433
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:38:31.520
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:38:47.452
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:38:47.455
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:39:08.413
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:39:08.640
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:39:09.890
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:39:31.055
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:39:31.057
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:39:40.993
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:39:40.997
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:39:41.265
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:39:42.877
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:40:18.956
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:40:18.959
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:40:28.913
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:40:28.916
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:40:29.009
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:40:41.242
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:40:41.243
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:40:41.263
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:40:42.164
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:40:42.166
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:40:42.231
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:40:42.309
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:40:42.365
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:40:42.486
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:40:42.562
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-07-19 00:40:57.944
+!MESSAGE Indexed 'blink' (59 sources, 149 headers) in 7,18 sec: 14.852 declarations; 38.840 references; 0 unresolved inclusions; 75 syntax errors; 77 unresolved names (0,14%)
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:41:30.140
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-07-19 00:41:38.505
+!MESSAGE Indexed 'blink' (59 sources, 149 headers) in 8,41 sec: 14.852 declarations; 38.840 references; 0 unresolved inclusions; 75 syntax errors; 77 unresolved names (0,14%)
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:41:50.382
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:41:50.387
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:41:50.418
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-07-19 00:42:11.531
+!MESSAGE Indexed 'blink' (59 sources, 149 headers) in 8,24 sec: 14.852 declarations; 38.840 references; 0 unresolved inclusions; 75 syntax errors; 77 unresolved names (0,14%)
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:42:28.107
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:42:28.292
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:42:41.315
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:42:41.317
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:42:41.335
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:42:42.238
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:42:42.239
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:42:42.305
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:42:42.379
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:42:42.434
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:42:42.575
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:42:42.659
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:42:59.242
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:42:59.246
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-07-19 00:43:03.786
+!MESSAGE Indexed 'blink' (59 sources, 149 headers) in 8,1 sec: 14.852 declarations; 38.840 references; 0 unresolved inclusions; 75 syntax errors; 77 unresolved names (0,14%)
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:43:21.031
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:43:21.033
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:43:21.068
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=false, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:43:21.070
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY org.eclipse.ui 4 4 2018-07-19 00:43:28.012
+!MESSAGE Conflicting handlers for com.atollic.truestudio.ui.buildSettings: {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])} vs {ActionHandler(WWinPluginAction [id=com.atollic.truestudio.ui.buildSettingsToolbarAction, enabled=true, actionSet=com.atollic.truestudio.ui.build_actionset])}
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-19 00:43:38.063
+!MESSAGE Unloading product manager
+!SESSION 2018-07-19 00:44:26.843 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-19 00:44:40.893
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-19 00:44:40.909
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2018-07-19 00:44:42.162
+!MESSAGE Target: STM32, Version: 9.0.1, Build date: 20180420-1214, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.0.1/ide/
+
+!ENTRY TrueSTUDIO 1 0 2018-07-19 00:44:42.162
+!MESSAGE Workspace: C:\Users\user\Documents\Atollic\STM32F0xx_HAL-v1.9.0\STM32F030R8
+
+!ENTRY org.eclipse.jface 2 0 2018-07-19 00:44:43.542
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-07-19 00:44:43.542
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15f2d1b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1015a49,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2018-07-19 00:44:49.010
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2018-07-19 00:44:49.071
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-07-19 00:44:49.372
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-07-19 00:46:02.004
+!MESSAGE Indexed 'blink' (59 sources, 149 headers) in 9,25 sec: 14.852 declarations; 38.840 references; 0 unresolved inclusions; 75 syntax errors; 77 unresolved names (0,14%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-07-19 00:46:29.232
+!MESSAGE Indexed 'blink' (59 sources, 149 headers) in 7,93 sec: 14.852 declarations; 38.840 references; 0 unresolved inclusions; 75 syntax errors; 77 unresolved names (0,14%)
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-07-19 00:47:10.310
+!MESSAGE Unloading product manager
